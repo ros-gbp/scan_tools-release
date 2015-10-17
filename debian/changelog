@@ -1,0 +1,8 @@
+ros-jade-laser-scan-splitter (0.2.1-0trusty) trusty; urgency=high
+
+  * [sys] Catkinization: laser_scan_splitter
+  * Contributors: Ivan Dryanovski, Miguel Sarabia
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 07:00:00 -0000
+
+
