@@ -1,0 +1,12 @@
+Source: ros-indigo-laser-scan-matcher
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), git-core, libpcl-1.7-all-dev, ros-indigo-catkin, ros-indigo-csm, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-nodelet, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-indigo-laser-scan-matcher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all, ros-indigo-csm, ros-indigo-geometry-msgs, ros-indigo-nav-msgs, ros-indigo-nodelet, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: An incremental laser scan matcher, using Andrea Censi's Canonical Scan Matcher implementation. Package downloads and installs Canonical Scan Matcher locally. Patches are applied to accept scans in cartesian (x,y) coordinates. More about CSM. NOTE the Canonical Scan Matcher library is licensed under the GNU Lesser General Public License v3, whereas the rest of the code is released under the BSD license.
