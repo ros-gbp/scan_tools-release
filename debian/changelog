@@ -1,0 +1,15 @@
+ros-indigo-scan-to-cloud-converter (0.3.0-0trusty) trusty; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Tue, 10 Nov 2015 08:00:00 -0000
+
+ros-indigo-scan-to-cloud-converter (0.2.1-0trusty) trusty; urgency=high
+
+  * [fix] PCL dependency Hydro onward
+  * [sys] Catkinization
+  * Contributors: Ivan Dryanovski, Miguel Sarabia, Enrique Fernández Perdomo
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 07:00:00 -0000
+
+
