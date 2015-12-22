@@ -1,0 +1,12 @@
+Source: ros-jade-scan-to-cloud-converter
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-jade-catkin, ros-jade-pcl-conversions, ros-jade-pcl-ros, ros-jade-roscpp
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-jade-scan-to-cloud-converter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl1.7, ros-jade-pcl-conversions, ros-jade-pcl-ros, ros-jade-roscpp
+Description: Converts LaserScan to PointCloud messages.
