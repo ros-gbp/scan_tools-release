@@ -1,0 +1,12 @@
+Source: ros-jade-laser-scan-matcher
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-jade-catkin, ros-jade-csm, ros-jade-geometry-msgs, ros-jade-nav-msgs, ros-jade-nodelet, ros-jade-pcl-conversions, ros-jade-pcl-ros, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-jade-laser-scan-matcher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl1.7, ros-jade-csm, ros-jade-geometry-msgs, ros-jade-nav-msgs, ros-jade-nodelet, ros-jade-pcl-conversions, ros-jade-pcl-ros, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Description: An incremental laser scan matcher, using Andrea Censi's Canonical Scan Matcher (CSM) implementation. See the web site for more about CSM. NOTE the CSM library is licensed under the GNU Lesser General Public License v3, whereas the rest of the code is released under the BSD license.
