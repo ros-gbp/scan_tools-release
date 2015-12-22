@@ -1,0 +1,22 @@
+ros-jade-ncd-parser (0.3.1-0utopic) utopic; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Fri, 18 Dec 2015 08:00:00 -0000
+
+ros-jade-ncd-parser (0.3.0-0utopic) utopic; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Tue, 10 Nov 2015 08:00:00 -0000
+
+ros-jade-ncd-parser (0.2.1-0utopic) utopic; urgency=high
+
+  * [doc] README files to contain catkin instructions
+  * [sys] Catkinization: ncd_parser
+  * [sys] Small tweaks to CMakeLists.txt and package.xml files
+  * Contributors: Ivan Dryanovski, Miguel Sarabia
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 07:00:00 -0000
+
+
