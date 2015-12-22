@@ -1,9 +1,0 @@
-ros-jade-laser-scan-sparsifier (0.2.1-0trusty) trusty; urgency=high
-
-  * [sys] Catkinizing: laser_scan_sparsifier
-  * [sys] renamed skip to step parameter in scan sparsifier
-  * Contributors: Ivan Dryanovski, Miguel Sarabia
-
- -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 07:00:00 -0000
-
-
