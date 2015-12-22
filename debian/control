@@ -1,0 +1,12 @@
+Source: ros-jade-polar-scan-matcher
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://ros.org/wiki/polar_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-jade-polar-scan-matcher
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-jade-geometry-msgs, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Description: A wrapper around Polar Scan Matcher by Albert Diosi and Lindsay Kleeman, used for laser scan registration.
