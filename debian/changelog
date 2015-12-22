@@ -1,9 +1,0 @@
-ros-jade-scan-to-cloud-converter (0.2.1-0utopic) utopic; urgency=high
-
-  * [fix] PCL dependency Hydro onward
-  * [sys] Catkinization
-  * Contributors: Ivan Dryanovski, Miguel Sarabia, Enrique Fernández Perdomo
-
- -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 07:00:00 -0000
-
-
