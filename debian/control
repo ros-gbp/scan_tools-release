@@ -1,0 +1,12 @@
+Source: ros-jade-laser-ortho-projector
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-1.7-all-dev, ros-jade-catkin, ros-jade-geometry-msgs, ros-jade-message-filters, ros-jade-nodelet, ros-jade-pcl-conversions, ros-jade-pcl-ros, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-jade-laser-ortho-projector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all, ros-jade-geometry-msgs, ros-jade-message-filters, ros-jade-nodelet, ros-jade-pcl-conversions, ros-jade-pcl-ros, ros-jade-roscpp, ros-jade-sensor-msgs, ros-jade-tf
+Description: The laser_ortho_projector package calculates orthogonal projections of LaserScan messages.
