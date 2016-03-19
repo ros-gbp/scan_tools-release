@@ -1,0 +1,12 @@
+Source: ros-indigo-laser-ortho-projector
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-1.7-all-dev, ros-indigo-catkin, ros-indigo-geometry-msgs, ros-indigo-message-filters, ros-indigo-nodelet, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-indigo-laser-ortho-projector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-1.7-all, ros-indigo-geometry-msgs, ros-indigo-message-filters, ros-indigo-nodelet, ros-indigo-pcl-conversions, ros-indigo-pcl-ros, ros-indigo-roscpp, ros-indigo-sensor-msgs, ros-indigo-tf
+Description: The laser_ortho_projector package calculates orthogonal projections of LaserScan messages.
