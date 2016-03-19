@@ -1,0 +1,32 @@
+ros-indigo-polar-scan-matcher (0.3.2-0trusty) trusty; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Sat, 19 Mar 2016 07:00:00 -0000
+
+ros-indigo-polar-scan-matcher (0.3.1-0trusty) trusty; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Fri, 18 Dec 2015 08:00:00 -0000
+
+ros-indigo-polar-scan-matcher (0.3.0-0trusty) trusty; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Tue, 10 Nov 2015 08:00:00 -0000
+
+ros-indigo-polar-scan-matcher (0.2.1-0trusty) trusty; urgency=high
+
+  * [feat] added polar scan matcher
+  * [feat] added imu option to PSM, made CSM and PSM look similar
+  * [feat] added demo dir to CSM,
+  * [fix] PSM launch file
+  * [sys] ROS Hydro compatible
+  * [sys] Cleaning
+  * [sys] correct license and references to PSM and CSM
+  * Contributors: Daniel Axtens, Ivan Dryanovski
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 07:00:00 -0000
+
+
