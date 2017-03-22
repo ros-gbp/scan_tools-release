@@ -1,0 +1,12 @@
+Source: ros-kinetic-scan-tools
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: http://ros.org/wiki/scan_tools
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-scan-tools
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-laser-ortho-projector, ros-kinetic-laser-scan-matcher, ros-kinetic-laser-scan-sparsifier, ros-kinetic-laser-scan-splitter, ros-kinetic-ncd-parser, ros-kinetic-polar-scan-matcher, ros-kinetic-scan-to-cloud-converter
+Description: Laser scan processing tools.
