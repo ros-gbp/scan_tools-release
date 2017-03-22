@@ -1,0 +1,12 @@
+Source: ros-kinetic-laser-scan-sparsifier
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-laser-scan-sparsifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-nodelet, ros-kinetic-roscpp, ros-kinetic-sensor-msgs
+Description: The laser_scan_sparsifier takes in a LaserScan message and sparsifies it.
