@@ -1,0 +1,12 @@
+Source: ros-kinetic-ncd-parser
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Homepage: http://wiki.ros.org/ncd_parser
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-ncd-parser
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-roscpp, ros-kinetic-sensor-msgs, ros-kinetic-tf
+Description: The ncd_parser package reads in .alog data files from the New College Dataset and broadcasts scan and odometry messages to ROS.
