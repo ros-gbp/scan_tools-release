@@ -1,0 +1,12 @@
+Source: ros-kinetic-scan-to-cloud-converter
+Section: misc
+Priority: extra
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-kinetic-catkin, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-scan-to-cloud-converter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl1.7, ros-kinetic-pcl-conversions, ros-kinetic-pcl-ros, ros-kinetic-roscpp
+Description: Converts LaserScan to PointCloud messages.
