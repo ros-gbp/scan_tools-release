@@ -1,0 +1,12 @@
+Source: ros-melodic-laser-ortho-projector
+Section: misc
+Priority: optional
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-melodic-catkin, ros-melodic-geometry-msgs, ros-melodic-message-filters, ros-melodic-nodelet, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-melodic-laser-ortho-projector
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.8, libpcl-common1.8, libpcl-features1.8, libpcl-filters1.8, libpcl-io1.8, libpcl-kdtree1.8, libpcl-keypoints1.8, libpcl-ml1.8, libpcl-octree1.8, libpcl-outofcore1.8, libpcl-people1.8, libpcl-recognition1.8, libpcl-registration1.8, libpcl-sample-consensus1.8, libpcl-search1.8, libpcl-segmentation1.8, libpcl-stereo1.8, libpcl-surface1.8, libpcl-tracking1.8, libpcl-visualization1.8, ros-melodic-geometry-msgs, ros-melodic-message-filters, ros-melodic-nodelet, ros-melodic-pcl-conversions, ros-melodic-pcl-ros, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-tf
+Description: The laser_ortho_projector package calculates orthogonal projections of LaserScan messages.
