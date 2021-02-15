@@ -1,0 +1,12 @@
+Source: ros-melodic-laser-scan-sparsifier
+Section: misc
+Priority: optional
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-sensor-msgs
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-melodic-laser-scan-sparsifier
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-sensor-msgs
+Description: The laser_scan_sparsifier takes in a LaserScan message and sparsifies it.
