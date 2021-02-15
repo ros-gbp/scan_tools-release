@@ -1,0 +1,12 @@
+Source: ros-noetic-scan-to-cloud-converter
+Section: misc
+Priority: optional
+Maintainer: Ivan Dryanovski <ccnyroboticslab@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), libpcl-dev, ros-noetic-catkin, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-roscpp
+Homepage: http://wiki.ros.org/laser_scan_matcher
+Standards-Version: 3.9.2
+
+Package: ros-noetic-scan-to-cloud-converter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libpcl-apps1.10, libpcl-common1.10, libpcl-features1.10, libpcl-filters1.10, libpcl-io1.10, libpcl-kdtree1.10, libpcl-keypoints1.10, libpcl-ml1.10, libpcl-octree1.10, libpcl-outofcore1.10, libpcl-people1.10, libpcl-recognition1.10, libpcl-registration1.10, libpcl-sample-consensus1.10, libpcl-search1.10, libpcl-segmentation1.10, libpcl-stereo1.10, libpcl-surface1.10, libpcl-tracking1.10, libpcl-visualization1.10, ros-noetic-pcl-conversions, ros-noetic-pcl-ros, ros-noetic-roscpp
+Description: Converts LaserScan to PointCloud messages.
