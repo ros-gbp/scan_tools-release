@@ -1,0 +1,34 @@
+ros-noetic-laser-ortho-projector (0.3.3-1focal) focal; urgency=high
+
+  * [maintenance] update to use non deprecated pluginlib macro
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Mon, 15 Feb 2021 05:00:00 -0000
+
+ros-noetic-laser-ortho-projector (0.3.2-1focal) focal; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Sat, 19 Mar 2016 04:00:00 -0000
+
+ros-noetic-laser-ortho-projector (0.3.1-1focal) focal; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Fri, 18 Dec 2015 05:00:00 -0000
+
+ros-noetic-laser-ortho-projector (0.3.0-1focal) focal; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Tue, 10 Nov 2015 05:00:00 -0000
+
+ros-noetic-laser-ortho-projector (0.2.1-1focal) focal; urgency=high
+
+  * [feat] added support for IMU message for orientation in laser_ortho_projector. The imu topic is imu/data
+  * [fix] PCL dependency Hydro onward
+  * [sys] Catkinization: laser_ortho_projector
+  * Contributors: Ivan Dryanovski, Miguel Sarabia, Enrique Fernández Perdomo
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 04:00:00 -0000
+
+
