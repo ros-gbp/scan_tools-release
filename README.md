@@ -1,3 +1,34 @@
+## scan_tools (melodic) - 0.3.3-2
+
+The packages in the `scan_tools` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic scan_tools` on `Tue, 23 Mar 2021 04:21:36 -0000`
+
+These packages were released:
+- `laser_ortho_projector`
+- `laser_scan_matcher`
+- `laser_scan_sparsifier`
+- `laser_scan_splitter`
+- `ncd_parser`
+- `polar_scan_matcher`
+- `scan_to_cloud_converter`
+- `scan_tools`
+
+Version of package(s) in repository `scan_tools`:
+
+- upstream repository: https://github.com/ccny-ros-pkg/scan_tools.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `0.3.3-1`
+- new version: `0.3.3-2`
+
+Versions of tools used:
+
+- bloom version: `0.10.2`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## scan_tools (noetic) - 0.3.3-1
 
 The packages in the `scan_tools` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic scan_tools --edit` on `Mon, 15 Feb 2021 20:11:44 -0000`
