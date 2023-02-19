@@ -1,0 +1,38 @@
+ros-noetic-laser-scan-splitter (0.4.0-1focal) focal; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Sun, 19 Feb 2023 06:00:00 -0000
+
+ros-noetic-laser-scan-splitter (0.3.3-1focal) focal; urgency=high
+
+  * update to use non deprecated pluginlib macro
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Mon, 15 Feb 2021 06:00:00 -0000
+
+ros-noetic-laser-scan-splitter (0.3.2-1focal) focal; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Sat, 19 Mar 2016 05:00:00 -0000
+
+ros-noetic-laser-scan-splitter (0.3.1-1focal) focal; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Fri, 18 Dec 2015 06:00:00 -0000
+
+ros-noetic-laser-scan-splitter (0.3.0-1focal) focal; urgency=high
+
+
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Tue, 10 Nov 2015 06:00:00 -0000
+
+ros-noetic-laser-scan-splitter (0.2.1-1focal) focal; urgency=high
+
+  * [sys] Catkinization: laser_scan_splitter
+  * Contributors: Ivan Dryanovski, Miguel Sarabia
+
+ -- Ivan Dryanovski <ccnyroboticslab@gmail.com>  Wed, 14 Oct 2015 05:00:00 -0000
+
+
